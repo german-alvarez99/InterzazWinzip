@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_recent"
+            android:icon="@drawable/recent"
+            android:title="Recent" />
+        <item
+            android:id="@+id/menu_Favorities"
+            android:icon="@drawable/favorities"
+            android:title="Favorities" />
+
+        <item
+            android:id="@+id/menu_places"
+            android:title="Places">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/menu_MyFiles"
+                        android:icon="@drawable/file"
+                        android:title="My files" />
+                    <item
+                        android:id="@+id/menu_Storage"
+                        android:icon="@drawable/storage"
+                        android:title="Storage" />
+                    <item
+                        android:id="@+id/menu_Photos"
+                        android:icon="@drawable/potho"
+                        android:title="Photod" />
+                    <item
+                        android:id="@+id/menu_Music"
+                        android:icon="@drawable/music"
+                        android:title="Music" />
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/menu_NetworkAndCloud"
+            android:title="Network and Cloud">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/menu_Network"
+                        android:icon="@drawable/network"
+                        android:title="Network" />
+                    <item
+                        android:id="@+id/menu_Dropbox"
+                        android:icon="@drawable/dropbox"
+                        android:title="Dropbox" />
+                    <item
+                        android:id="@+id/menu_GoogleDrive"
+                        android:icon="@drawable/file"
+                        android:title="Goolge Drive" />
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/menu_Tool"
+            android:title="Network and Cloud">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/menu_CleanPhoto"
+                        android:icon="@drawable/borrarimagen"
+                        android:title="Clean Photo" />
+                    <item
+                        android:id="@+id/menu_AccesFromPc"
+                        android:icon="@drawable/pc"
+                        android:title="Access from PC" />
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/menu_Settings"
+            android:title="Settings">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/menu_Purchase"
+                        android:icon="@drawable/purchase"
+                        android:title="Purchase" />
+                    <item
+                        android:id="@+id/menu_Setting"
+                        android:icon="@drawable/setting"
+                        android:title="Settings" />
+                    <item
+                        android:id="@+id/menu_Exit"
+                        android:icon="@drawable/exit"
+                        android:title="Exit" />
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

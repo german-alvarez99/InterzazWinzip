@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:titleTextColor="@color/colorAccent">
+
+    <item android:id="@+id/mnu_nuevo"
+        android:title="By size"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="always"></item>
+    <item android:title="Ordenar por"
+        android:orderInCategory="199"
+        android:icon="@drawable/ic_ordenar"
+        app:showAsAction="always">
+        <menu>
+             <item android:id="@+id/mnu_ord_nombre"
+                android:title="By name"
+                android:orderInCategory="101"
+                app:showAsAction="never"></item>
+            <item android:id="@+id/mnu_ord_fecha"
+                android:title="By date modified"
+                android:orderInCategory="102"
+                app:showAsAction="never"></item>
+            <item android:id="@+id/mnu_ord_tipo"
+                android:title="By type"
+                android:orderInCategory="103"
+                app:showAsAction="never"></item>
+            <item android:id="@+id/mnu_ord_tamanio"
+                android:title="By size"
+                android:orderInCategory="104"
+                app:showAsAction="never"></item>
+        </menu>
+    </item>
+</menu>
